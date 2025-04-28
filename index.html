@@ -4,12 +4,49 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Primera web</title>
+
+		<style>
+			/* Para aplicar estilos CSS */
+			/* Aplicar por selector TIPO etiqueta */
+			h1 {
+				color: blue;
+			}
+			h3 {
+				color: purple;
+				font-style: italic;
+			}
+			/* Aplicar por selector ID */
+			#Texto {
+				color: red;
+			}
+			/* Aplicar por selector clase */
+			.colorPrincipal {
+				color: rgb(231, 117, 11);
+			}
+		</style>
 	</head>
-	<body>
-		<h1>Hola Mundo</h1>
-		<img src="Salchy.png" alt="salchy">
-	</body>
+	<body style="color:green ; background-color: rgb(146, 218, 241)">
+		<h1 style="color:rgb(255, 0, 0)">Hola Mundo</h1>
+		<img src="Salchy.png" width="200px" alt="salchy">
+		<div>
+			<h1>Este es un texto en h1</h1>
+			<h2 style="color: black">Este es un texto en h2</h2>
+			<h3>Este es un texto en h3</h3>
+			<h4>Este es un texto en h4</h4>
+			<h5>Este es un texto en h6</h5>
+			<h6>Este es un texto en h6</h6>
+		</div>
+		<div>
+			<p>Parrafo 1</p>
+			<p id="Texto">Parrafo 2</p>
+			<p>Parrafo 3</p>
+		</div>
 	<footer>
-		
+		<h3>Footer de mi página</h3>
+		<div class="colorPrincipal">
+			<p>Redes Sociales</p>
+			<p>LinkedIn</p>
+			<p>Redes Sociales</p>
+		</div>
 	</footer>
 </html>
